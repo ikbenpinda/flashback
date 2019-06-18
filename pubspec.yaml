@@ -70,6 +70,9 @@ flutter:
   #       - asset: fonts/TrajanPro.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
+
+  # The assets/fonts/<font name> is an arbitrary directory structure.
+  # The fonts are as-is downloaded from Google Fonts and apparently spaces in paths are okay.
   fonts:
     - family: B612
       fonts:

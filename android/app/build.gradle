@@ -37,9 +37,8 @@ android {
     }
 
     defaultConfig {
-        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
         applicationId "achan.nl.flashback"
-        minSdkVersion 21 // 16 was to low to be used with the Camera plugin.
+        minSdkVersion 21 // 16 was too low to be used with the Camera plugin.
         targetSdkVersion 28
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
